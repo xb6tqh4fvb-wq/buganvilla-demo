@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 56" role="img" aria-label="Buganvilla">
+  <!-- Let op: zet de tekst voor drukwerk nog om naar lijnen (lettercontouren). -->
+  <path d="M26 10 C38 14 42 27 34 39 C27 47 16 45 12 36 C8 25 16 14 26 10" fill="none" stroke="#C2187A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="17" y="25" width="18" height="6.5" rx="2" fill="#16233B"/>
+  <circle cx="26" cy="19" r="3" fill="#F5B83D"/>
+  <text x="56" y="35" font-family="Archivo, Arial, sans-serif" font-weight="700" font-size="21" fill="#16233B">Bugan<tspan fill="#C2187A">villa</tspan></text>
+</svg>

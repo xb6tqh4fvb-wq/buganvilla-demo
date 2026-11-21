@@ -1,0 +1,19 @@
+# Voorbeeldontwerpen (niet openbaar): nooit in zoekmachines of archieven.
+/voorbeeld/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Referrer-Policy: no-referrer
+
+# Voorstelpagina's van de brievenactie: nooit in zoekmachines of archieven.
+/c/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Referrer-Policy: no-referrer
+
+# Beveiligingsheaders voor de hele site (we beloven dit op de homepage).
+# Framing alleen door onze eigen site: de voor/na-vergelijking laadt /demo/ in een iframe.
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: frame-ancestors 'self'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Cross-Origin-Opener-Policy: same-origin
